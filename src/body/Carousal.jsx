@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
+import CircleProducts from "./CircleProducts";
 
 const Carousal = () => {
   return (
@@ -41,6 +42,8 @@ const Carousal = () => {
           <p className="legend">product 5</p>
         </div>
       </Carousel>
+
+      <CircleProducts/>
     </div>
   );
 };
