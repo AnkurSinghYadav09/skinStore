@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom";
 import Viewall from "./cosmetics/viewall";
 import Home from "./Home";
 import Register from "./Account/Register";
+import Login from "./Account/Login";
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/viewall" element={<Viewall />} />
         <Route path="/register" element={<Register />} />
-      
+        <Route path="/login" element={<Login />} />
+        
       </Routes>
       <Footer />
     </div>

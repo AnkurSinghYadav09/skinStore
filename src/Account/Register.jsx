@@ -1,12 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Register.css";
 const Register = () => {
-
-   const handleSubmit = ()=>{
-      return(
-        window.open('http://www.google.com')
-      )
-   }
+  //    const handleSubmit = ()=>{
+  //       return(
+  //         window.open("/login")
+  //       )
+  //    }
 
   return (
     <div>
@@ -28,7 +28,7 @@ const Register = () => {
             </div>
             <hr />
             <p>Or create an email account</p>
-            <form onSubmit={handleSubmit}>
+            <form>
               <label for="name">*Full Name</label>
               <input type="text" id="name" />
               <span class="message" id="nme"></span>
@@ -58,7 +58,10 @@ const Register = () => {
                 <input type="text" id="ref-code" />
                 <span id="ref"></span>
               </div>
-              <input type="submit" value="CONTINUE" id="submit" />
+              <Link to="/login">
+                <input type="submit" value="CONTINUE" id="submit" />
+              </Link>
+
               <p>
                 By proceeding, you are confirming that you agree to our
                 <a href="##" class="term-cond-link">
