@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
-import "./App.css";
+// import "./App.css";
 import Navbar from "./navbar/Navbar";
-import Carousal from "./body/Carousal";
+// import Carousal from "./body/Carousal";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Footer from "./footer/Footer";
+// import Footer from "./footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import Viewall from "./cosmetics/viewall";
 import Home from "./Home";

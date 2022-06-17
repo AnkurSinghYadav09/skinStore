@@ -42,39 +42,39 @@ const Navbar = () => {
             <Link to="/viewall">View All Cousmetics</Link>
           </nav>
 
-          <a href="../productpages/SkinMedica.html">Eye Shadows</a>
-          <a href="/manoj_kumar/Mascaras.html">Maskaras</a>
-          <a href="/manoj_kumar/Bronzers.html">Bronzers </a>
-          <a href="/manoj_kumar/Face Powders.html">Face Powders</a>
-          <a href="/manoj_kumar/foundation.html">Foundations</a>
-          <a href="/manoj_kumar/Lip_liners.html">Lips Liners</a>
-          <a href="/manoj_kumar/Lipsticks.html">Lipsticks</a>
-          <a href="/manoj_kumar/Liquid_Lipstick.html">Liquid Lipsticks</a>
+          <a href="##">Eye Shadows</a>
+          <a href="##">Maskaras</a>
+          <a href="##">Bronzers </a>
+          <a href="##">Face Powders</a>
+          <a href="##">Foundations</a>
+          <a href="##">Lip Liners</a>
+          <a href="##">Lipsticks</a>
+          <a href="##">Liquid Lipsticks</a>
         </div>
       </div>
 
       <div class="dropdown">
         <button class="dropbtn">Summer Shop</button>
         <div class="dropdown-content">
-          <a href="../productpages/SkinCeuticals.html">sunless tanning </a>
-          <a href="../productpages/SkinMedica.html">Hair care</a>
-          <a href="/manoj_kumar/Mascaras.html">Maskaras</a>
-          <a href="/manoj_kumar/Bronzers.html">Bronzers </a>
-          <a href="/manoj_kumar/Face Powders.html">Face Powders</a>
-          <a href="/manoj_kumar/foundation.html">Foundations</a>
-          <a href="/manoj_kumar/Lip_liners.html">Lips Liners</a>
-          <a href="/manoj_kumar/Lipsticks.html">Lipsticks</a>
-          <a href="/manoj_kumar/Liquid_Lipstick.html">Liquid Lipsticks</a>
+          <a href="##">sunless tanning </a>
+          <a href="##">Hair care</a>
+          <a href="##">Maskaras</a>
+          <a href="##">Bronzers </a>
+          <a href="##">Face Powders</a>
+          <a href="##">Foundations</a>
+          <a href="##">Lips Liners</a>
+          <a href="##">Lipsticks</a>
+          <a href="##">Liquid Lipsticks</a>
         </div>
       </div>
 
       <div class="dropdown">
         <button class="dropbtn">Skin Care</button>
         <div class="dropdown-content">
-          <a href="/manoj_kumar/ViewAllSkincare.html">View All Skin Care</a>
-          <a href="/manoj_kumar/NewIn.html">New In</a>
-          <a href="/manoj_kumar/Clean_Skincare.html">Clear SkinCare</a>
-          <a href="/manoj_kumar/Clean_Skincare.html">5*Rated Products</a>
+          <a href="##">View All Skin Care</a>
+          <a href="##">New In</a>
+          <a href="##">Clear SkinCare</a>
+          <a href="##">5*Rated Products</a>
           <a href="##">Gifts & Sets</a>
           <a href="##">Supersizes & Duo</a>
           <a href="##">Travel Sizes</a>
