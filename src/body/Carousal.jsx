@@ -1,10 +1,12 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
+
 import CircleProducts from "./CircleProducts";
 
 const Carousal = () => {
   return (
     <div>
+      
       <Carousel autoPlay infiniteLoop>
         <div>
           <img

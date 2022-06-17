@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
   return (
     <div>
@@ -23,10 +24,10 @@ const Navbar = () => {
           />
         </div>
         <div className="account">
-          <p>
-            {" "}
-            <i class="fas">&#xf406;</i>Account
+          <p >
+            <i class="fas">&#xf406;</i> <Link to="/register" >Account</Link> 
           </p>
+          
         </div>
 
         <div className="cart">
@@ -38,9 +39,7 @@ const Navbar = () => {
       <div class="dropdown">
         <button class="dropbtn">Makeup</button>
         <div class="dropdown-content">
-          <nav>
-            <Link to="/viewall">View All Cousmetics</Link>
-          </nav>
+          <Link to="/viewall">View All Cousmetics</Link>
 
           <a href="##">Eye Shadows</a>
           <a href="##">Maskaras</a>
