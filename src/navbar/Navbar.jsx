@@ -1,15 +1,19 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div>
       <div className="nav">
-        <div className="logo">
-          <img
-            src="https://seeklogo.com/images/S/skinstore-logo-5281C41BD3-seeklogo.com.png"
-            alt=""
-          />
-        </div>
+        <Link to="/">
+          <div className="logo">
+            <img
+              src="https://seeklogo.com/images/S/skinstore-logo-5281C41BD3-seeklogo.com.png"
+              alt=""
+            />
+          </div>
+        </Link>
         <div className="search">
           <input
             type="text"
@@ -30,10 +34,14 @@ const Navbar = () => {
         </div>
       </div>
       {/* dropdown buttons */}
+
       <div class="dropdown">
         <button class="dropbtn">Makeup</button>
         <div class="dropdown-content">
-          <a href="../productpages/SkinCeuticals.html">View All Cousmetics</a>
+          <nav>
+            <Link to="/viewall">View All Cousmetics</Link>
+          </nav>
+
           <a href="../productpages/SkinMedica.html">Eye Shadows</a>
           <a href="/manoj_kumar/Mascaras.html">Maskaras</a>
           <a href="/manoj_kumar/Bronzers.html">Bronzers </a>
