@@ -1,4 +1,17 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(4 ,260px);
+    grid-template-rows: repeat(5,400px);
+    margin: auto;
+    padding-left:80px ;
+    gap: 20px;
+
+}
+
 .circle>img{
-   height: 350px;
+   height: 250px;
    border-radius: 450px;
+   display: flex;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
 }
