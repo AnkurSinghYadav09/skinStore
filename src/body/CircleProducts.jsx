@@ -14,7 +14,7 @@ const CircleProducts = () => {
 
   return (
     <div>
-      <h2>Trending Offers</h2>
+      <h2 style={{paddingLeft:"550px"}}>Trending Offers</h2>
 
       <div>
         {/* {data.map((e)=>( */}

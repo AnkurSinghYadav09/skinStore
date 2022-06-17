@@ -3,12 +3,14 @@ import './App.css';
 import Navbar from './navbar/Navbar';
 import Carousal from './body/Carousal';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Footer from './footer/Footer';
 
 function App() {
   return (
     <div >
       <Navbar/>
       <Carousal/>
+      <Footer/>
     </div>
   );
 }
