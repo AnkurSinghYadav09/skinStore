@@ -6,13 +6,13 @@
 }
 
 .logo > img {
-  border: 2px solid rgb(185, 18, 18);
+  /* border: 2px solid rgb(185, 18, 18); */
   height: 60px;
   box-sizing: border-box;
 }
 
 .search > input {
-  border: 2px solid rgb(185, 18, 18);
+  /* border: 2px solid rgb(185, 18, 18); */
   box-sizing: border-box;
   font-family: "Lato-Light", Helvetica, Arial, sans-serif;
   color: #2e3337;
@@ -29,7 +29,7 @@
 }
 
 .account {
-  border: 2px solid rgb(185, 18, 18);
+  /* border: 2px solid rgb(185, 18, 18); */
   margin-top: 2px ;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .cart {
-  border: 2px solid rgb(185, 18, 18);
+  /* border: 2px solid rgb(185, 18, 18); */
   padding: 20px;
 }
 .cart > i {
